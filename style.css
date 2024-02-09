@@ -1,0 +1,37 @@
+body {
+    background-color: #555;
+    color: #fff;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    background-color: sandybrown;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
