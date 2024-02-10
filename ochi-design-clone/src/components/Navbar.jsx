@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed z-[999] w-full py-8 px-20 flex justify-between">
+    <div className="fixed z-[999] w-full py-8 px-10 flex justify-between">
       <div className="logo">
         <svg
           width="72"
