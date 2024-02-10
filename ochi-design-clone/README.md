@@ -7,3 +7,5 @@ cards
 cards
 readytostart
 footer
+
+## npm i framer-motion
