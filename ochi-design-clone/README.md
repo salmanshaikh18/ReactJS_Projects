@@ -13,3 +13,5 @@ footer
 ## Radian = (delta y, delta x)
 
 ## 1 Radian == 180 / Math.PI
+
+## npm install locomotive-scroll@beta

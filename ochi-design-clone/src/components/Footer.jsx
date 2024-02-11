@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="w-full h-screen bg-zinc-900 absolute">
       <div className="flex">
-        <div className="w-1/2 mt-20 ml-10">
+        <div className="w-1/2 mt-40 ml-10">
           <h1 className="uppercase text-bold leading-none  text-zinc-200 text-8xl tracking-tighter font-semibold">
             Eye-
           </h1>
@@ -12,7 +12,7 @@ const Footer = () => {
             Opening
           </h1>
         </div>
-        <div className="w-1/2 mt-20 mr-10">
+        <div className="w-1/2 mt-40 mr-10">
           <h1 className="uppercase font-semibold leading-none  text-zinc-200 text-8xl tracking-[-7px]">
             Presentations
           </h1>
