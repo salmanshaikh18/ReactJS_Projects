@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const LandingPage = () => {
   return (
-    <div data-scroll data-scroll-speed="-.3" className="w-full h-screen pt-1 overflow-hidden">
+    <div data-scroll data-scroll-speed="-.2" className="w-full h-screen pt-1 overflow-hidden">
       <div className="textStructure mt-[180px]">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
           <div className="masker">
@@ -14,7 +14,7 @@ const LandingPage = () => {
                 <motion.div 
                 initial={{width: 0}} 
                 animate={{width: "130px"}} 
-                tranistion={{ease: [0.76, 0, 0.24, 1], duration: '1'}} 
+                tranistion={{ease: [0.76, 0, 0.24, 1], duration: '2s'}} 
                 className="w-[130px] rounded h-[5vw] mt-0.5 bg-red-500 ml-12 mr-[-30px]"></motion.div>
               )}
               <h1 className="uppercase flex items-center h-full text-[7vw] px-10 leading-[6vw] tracking-tighter font-semibold" key="index">{item}</h1>

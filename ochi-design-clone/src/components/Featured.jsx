@@ -47,7 +47,7 @@ const Featured = () => {
               className="card w-full h-full bg-[url('https://images.unsplash.com/photo-1502163140606-888448ae8cfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] rounded-lg hover:scale-95 transition all ease duration-[0.5s] overflow-hidden bg-cover bg-center"
             ></div>
           </div>
-          <h1 id="box1" className="absolute top-1/2 left-[48%] z-50 -translate-x-1/2 -translate-y-1/2 text-5xl text-red-500 flex justify-center items-center">
+          <h1 id="box1" className="absolute top-1/2 left-[48%] z-50 -translate-x-1/2 -translate-y-1/2 text-[5vw] text-[#CDEA68] font-semibold flex justify-center items-center">
             {"FYDE".split("").map((item, index) => (
               <motion.span
                 initial={{ y: "100%" }}
@@ -68,7 +68,7 @@ const Featured = () => {
               onMouseLeave={() => hoverOutImg2()}
               className="card w-full h-full bg-[url('https://images.unsplash.com/photo-1502323777036-f29e3972d82f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center rounded-lg hover:scale-95 transition all ease duration-[0.5s] overflow-hidden"
             ></div>
-            <h1 id="box2" className="absolute top-1/2 left-[48%] z-50 -translate-x-1/2 -translate-y-1/2 text-5xl text-red-500 flex justify-center items-center">
+            <h1 id="box2" className="absolute top-1/2 left-[48%] z-50 -translate-x-1/2 -translate-y-1/2 text-[5vw] font-semibold text-[#CDEA68] flex justify-center items-center">
             {"WISE".split("").map((item, index) => (
               <motion.span
                 initial={{ y: "100%" }}
